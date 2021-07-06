@@ -3,9 +3,9 @@ package com.example.recyclerviewproject;
 public class MyCardJob {
     private String cardName;
     private String cardJob;
-    private Integer cardImage;
+    private int cardImage;
 
-    public MyCardJob(String cardName, String cardJob, Integer cardImage) {
+    public MyCardJob(int cardImage, String cardJob, String cardName) {
         this.cardName = cardName;
         this.cardJob = cardJob;
         this.cardImage = cardImage;
